@@ -1,0 +1,13 @@
+let speed = 0;
+
+function run() {
+  speed += 10;
+
+  if (speed > 200) {
+    alert("🏁 Finish! You reached maximum speed!");
+    speed = 0;
+  }
+
+  document.getElementById("speed").textContent =
+    "Speed: " + speed + " km/h";
+}
