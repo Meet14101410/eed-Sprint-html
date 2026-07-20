@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Speed Sprint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏎️ Speed Sprint</h1>
+  <p>Press the button to increase speed!</p>
+
+  <h2 id="speed">Speed: 0 km/h</h2>
+  <button onclick="run()">Accelerate</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
